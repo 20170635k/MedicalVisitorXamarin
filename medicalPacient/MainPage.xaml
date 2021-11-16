@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="medicalPacient.MainPage">
+
+    <StackLayout>
+        <Frame BackgroundColor="#2196F3" Padding="20" CornerRadius="0">
+            <Label Text="Medical Visitor" HorizontalTextAlignment="Center" TextColor="White" FontSize="30"/>
+        </Frame>
+        <Label FontSize="20" Padding="30,24,30,0" FontAttributes="Bold" HorizontalTextAlignment="Center">
+            <Label.FormattedText>
+                <FormattedString>
+                    <FormattedString.Spans>
+                        <Span Text="Register"/>
+                    </FormattedString.Spans>
+                </FormattedString>
+            </Label.FormattedText>
+        </Label>
+        <Frame BackgroundColor="WhiteSmoke" Padding="30" CornerRadius="0">
+            <StackLayout>
+                <Entry x:Name="height_cm" Placeholder="Height_cm" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="pressure" Placeholder="pressure" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="saturation" Placeholder="Saturation" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="temperature" Placeholder="Temperature" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="weight_kg" Placeholder="Weight_kg" PlaceholderColor="Gray">
+                </Entry>
+            </StackLayout>
+        </Frame>
+        <Button Text="Save" BackgroundColor="#2196F3" Margin="20" FontSize="16" TextColor="WhiteSmoke" Clicked="Button_Clicked"></Button>
+    </StackLayout>
+
+</ContentPage>
