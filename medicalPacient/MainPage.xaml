@@ -18,6 +18,14 @@
         </Label>
         <Frame BackgroundColor="WhiteSmoke" Padding="30" CornerRadius="0">
             <StackLayout>
+                <Entry x:Name="full_name" Placeholder="Full Name" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="address" Placeholder="Address" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="born_date" Placeholder="Born Date" PlaceholderColor="Gray">
+                </Entry>
+                <Entry x:Name="gps" Placeholder="GPS" PlaceholderColor="Gray">
+                </Entry>
                 <Entry x:Name="height_cm" Placeholder="Height_cm" PlaceholderColor="Gray">
                 </Entry>
                 <Entry x:Name="pressure" Placeholder="pressure" PlaceholderColor="Gray">
